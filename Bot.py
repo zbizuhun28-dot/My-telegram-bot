@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
 
-TOKEN = "YOUR_BOT_TOKEN_HERE"  # Replace with your token from BotFather
+TOKEN = "8772785235:AAEBcphDJp2VU-eZWeQwG8Qlw9-_WVFYm1M"  # Replace with your token from BotFather
 
 def delete_joins(update: Update, context: CallbackContext):
     if update.message.new_chat_members:
